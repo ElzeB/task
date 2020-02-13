@@ -7140,11 +7140,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   margin: 0;
-  font-family: 'Titillium Web', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .purple__section {
   background-color: #864F9C;
-  height: 300px;
+  height: 100%;
   display: flex;
   justify-content: center; }
   .purple__section__top__nav {
@@ -7169,7 +7169,8 @@ body {
         .purple__section__top__nav__right ul li a {
           text-decoration: none;
           color: white;
-          margin-right: 30px; }
+          margin-right: 30px;
+          padding: 5px; }
     .purple__section__top__nav__left {
       display: flex;
       justify-content: flex-end;
@@ -7177,6 +7178,7 @@ body {
   .purple__section__content {
     color: white;
     font-size: 20px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -7187,6 +7189,7 @@ body {
       border: 0;
       padding: 10px;
       min-width: 150px;
+      margin-bottom: 70px;
       color: white;
       text-transform: uppercase;
       font-size: 9px;
@@ -7206,19 +7209,22 @@ body {
   .green__section__name::after {
     width: 87px;
     height: 4px;
-    margin: 20px auto 25px;
+    margin: 10px auto 15px;
     content: '';
     display: block;
     background-color: rgba(0, 0, 0, 0.15); }
   .green__section__name {
-    margin: 0 auto 50px; }
+    padding-top: 100px;
+    letter-spacing: 2px;
+    font-weight: 300; }
   .green__section p {
     max-width: 500px;
     margin: auto;
     text-align: center; }
   .green__section__second__inner {
     background-color: #864F9C;
-    margin-top: 50px; }
+    margin-top: 50px;
+    min-height: 290px; }
     .green__section__second__inner__img {
       position: relative;
       height: 145px; }
@@ -7228,4 +7234,107 @@ body {
         left: 0;
         right: 0;
         margin: auto; }
+
+a:hover {
+  background-color: #633a79; }
+
+.grey__section {
+  background-color: #E7F1F8;
+  height: 100%;
+  color: #393939; }
+  .grey__section__name::after {
+    width: 87px;
+    height: 4px;
+    margin: 10px auto 15px;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.15); }
+  .grey__section__name {
+    padding-top: 100px;
+    letter-spacing: 2px;
+    font-weight: 300; }
+  .grey__section p {
+    max-width: 600px;
+    margin: auto;
+    text-align: center; }
+  .grey__section img {
+    width: 50%;
+    height: 50%; }
+  .grey__section__second__img {
+    position: relative;
+    height: 145px; }
+    .grey__section__second__img img {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      right: 0;
+      margin: auto; }
+  .grey__section__second h4 {
+    font-size: 16px; }
+  .grey__section__second h5 {
+    font-size: 14px;
+    color: #03a9fc; }
+  .grey__section__second p {
+    font-size: 14px; }
+  .grey__section ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+    .grey__section ul img {
+      width: 1.5em;
+      height: 1.5em;
+      padding: 0.2em; }
+
+.yellow__section {
+  background-color: #FFDD99;
+  height: 100%;
+  color: #393939; }
+  .yellow__section__first ul {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: black; }
+    .yellow__section__first ul li {
+      background-color: #d9c896;
+      margin: 3px;
+      border-radius: 3px; }
+      .yellow__section__first ul li a {
+        color: black;
+        font-size: 14px;
+        padding: 3px; }
+      .yellow__section__first ul li a:hover {
+        background-color: white; }
+  .yellow__section__name::after {
+    width: 87px;
+    height: 4px;
+    margin: 10px auto 15px;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.15); }
+  .yellow__section__name {
+    padding-top: 100px;
+    letter-spacing: 2px;
+    font-weight: 300; }
+  .yellow__section p {
+    max-width: 600px;
+    margin: auto;
+    text-align: center; }
+  .yellow__section__second img {
+    height: 90%;
+    width: 90%; }
+  .yellow__section__second p {
+    text-transform: uppercase;
+    font-size: 15px; }
+  .yellow__section button {
+    background-color: #5BD3BE;
+    border: 0;
+    padding: 15px;
+    min-width: 200px;
+    margin-bottom: 70px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px; }
 
